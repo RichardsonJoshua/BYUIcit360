@@ -21,14 +21,14 @@ public class JUnit {
 	   public void test_addition() {
 	      System.out.println("Addition Test") ;
 	      SimpleCalc newAddition = new SimpleCalc(100,3) ;
-	      assertTrue(newAddition.addition() == 103) ;
+	      assertFalse(newAddition.addition() != 103) ;
 	   }
 	   //Test subtraction method of the SimpleCalc class
 	  @Test
 	   public void test_subtraction() {
 	      System.out.println("Subtraction Test") ;
 	      SimpleCalc newSubtraction = new SimpleCalc(100,3) ;
-	      assertTrue(newSubtraction.subtraction() == 97) ;
+	      assertEquals(newSubtraction.subtraction() = 97) ;
 	   }
 	
 	//Test division method of the SimpleCalc class
