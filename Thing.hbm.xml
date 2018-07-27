@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+create table THING (
+   number INT NOT NULL auto_increment,
+   name VARCHAR(20) default NULL,
+   weight     INT  default NULL,
+   PRIMARY KEY (number)
+);
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+
+
+</hibernate-mapping>
